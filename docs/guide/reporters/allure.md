@@ -66,3 +66,7 @@ $ allure generate [allure_output_dir] && allure report open
 This will generate a report (by default in `./allure-report`), and open it in your browser:
 
 ![Allure Website](https://github.com/webdriverio/wdio-allure-reporter/raw/master/docs/images/browser.png "Allure Website")
+
+Go to Global Tool Configuration on your jenkins instance, by going to Manage Jenkins Menu and clicking on Global Tool Configuration link or just type https://<YOUR_JENKINS_INSTANCE>/configureTools/ url. Configure a new Allure Comandline Installation, like the following:
+
+![Allure Commandline Installation](https://image.ibb.co/fvc6Mk/Screen_Shot_2017_08_23_at_10_25_00.png)
